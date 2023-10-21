@@ -1,0 +1,115 @@
+/* .input-container {
+  width: 40%;
+  box-shadow: 5px 5px 8px #888888;
+  border: 1px solid black;
+  margin-top: 25px;
+}
+.output-container {
+  width: 40%;
+  min-height: 40px;
+  box-shadow: 5px 5px 8px #888888;
+  border: 1px solid black;
+  margin-top: 25px;
+}
+
+.buttons {
+  margin: 30px;
+  background-color: rgb(0, 153, 255);
+  color: white;
+  height: 40px;
+  width: 100px;
+  box-shadow: 3px 3px 5px black;
+}
+
+input,
+textarea {
+  padding: 5px;
+  border-radius: 6px;
+} */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.center {
+  text-align: center;
+}
+
+.input-container {
+  width: 50%;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.input-container h3 {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons:hover {
+  background-color: #45a049;
+}
+
+.output-container {
+  width: 50%;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border: 2px solid #4caf50;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+  color: #aaa;
+}
+
+@media (max-width: 600px) {
+  .input-container {
+    width: 80%;
+  }
+  .output-container {
+    width: 80%;
+  }
+}
